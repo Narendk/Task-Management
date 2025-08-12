@@ -1,12 +1,69 @@
-# React + Vite
+**🗂️ Task Management App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intermediate-level React application that allows users to create, edit, delete, search, and manage tasks with a clean UI and smooth navigation.
+This project demonstrates React Router, form handling with validation, custom hooks, and data persistence using Local Storage.
 
-Currently, two official plugins are available:
+**✨ Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Home Page – View all tasks in a tabular format.
 
-## Expanding the ESLint configuration
+Create Task – Add new tasks with validation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Edit Task – Update existing tasks.
+
+Delete Task – Remove tasks permanently.
+
+**📝 Form Handling**
+
+Custom React Hooks to manage form states and validation.
+
+Error messages for invalid input.
+
+**📊 Data Management**
+
+Store tasks in local state with persistence in Local Storage.
+
+**📋 Table Component**
+
+Sort tasks by name, status, or date.
+
+Filter tasks based on criteria.
+
+**🔍 Search & Pagination**
+
+Search bar to quickly find tasks by keyword.
+
+Paginate task list for better performance with large datasets.
+
+**🛠️ Tech Stack**
+
+React – UI library
+
+React Router DOM – Routing
+
+Tailwind CSS 
+
+Local Storage – Data persistence
+
+**🚀 Getting Started**
+
+1️⃣ Clone the repository
+git clone 
+cd task-management-app
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Start the development server
+npm start
+
+**📚 Learning Outcomes**
+
+Mastery of React Router for multi-page apps.
+
+Building reusable form components with validation.
+
+Implementing sorting, filtering, and pagination in tables.
+
+Managing local state & persistence effectively.
+
