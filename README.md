@@ -48,8 +48,7 @@ Local Storage – Data persistence
 **🚀 Getting Started**
 
 1️⃣ Clone the repository
-git clone 
-cd task-management-app
+git clone https://github.com/Narendk/Task-Management.git
 
 2️⃣ Install dependencies
 npm install
